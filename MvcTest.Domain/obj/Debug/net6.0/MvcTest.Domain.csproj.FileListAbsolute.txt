@@ -1,0 +1,12 @@
+/Users/nicolas/RiderProjects/MvcTest/MvcTest.Domain/bin/Debug/net6.0/MvcTest.Domain.deps.json
+/Users/nicolas/RiderProjects/MvcTest/MvcTest.Domain/bin/Debug/net6.0/MvcTest.Domain.dll
+/Users/nicolas/RiderProjects/MvcTest/MvcTest.Domain/bin/Debug/net6.0/ref/MvcTest.Domain.dll
+/Users/nicolas/RiderProjects/MvcTest/MvcTest.Domain/bin/Debug/net6.0/MvcTest.Domain.pdb
+/Users/nicolas/RiderProjects/MvcTest/MvcTest.Domain/obj/Debug/net6.0/MvcTest.Domain.csproj.AssemblyReference.cache
+/Users/nicolas/RiderProjects/MvcTest/MvcTest.Domain/obj/Debug/net6.0/MvcTest.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nicolas/RiderProjects/MvcTest/MvcTest.Domain/obj/Debug/net6.0/MvcTest.Domain.AssemblyInfoInputs.cache
+/Users/nicolas/RiderProjects/MvcTest/MvcTest.Domain/obj/Debug/net6.0/MvcTest.Domain.AssemblyInfo.cs
+/Users/nicolas/RiderProjects/MvcTest/MvcTest.Domain/obj/Debug/net6.0/MvcTest.Domain.csproj.CoreCompileInputs.cache
+/Users/nicolas/RiderProjects/MvcTest/MvcTest.Domain/obj/Debug/net6.0/MvcTest.Domain.dll
+/Users/nicolas/RiderProjects/MvcTest/MvcTest.Domain/obj/Debug/net6.0/ref/MvcTest.Domain.dll
+/Users/nicolas/RiderProjects/MvcTest/MvcTest.Domain/obj/Debug/net6.0/MvcTest.Domain.pdb

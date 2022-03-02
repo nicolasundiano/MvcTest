@@ -1,0 +1,77 @@
+@using Microsoft.AspNetCore.Mvc.Rendering
+@model MvcTest.Application.DTOs.ClienteDto
+
+@{
+    Layout = null;
+    var paises = (List<SelectListItem>)ViewBag.Paises;
+}
+
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+      
+        
+            <label>Nombre:*</label>
+            <input asp-for="@Model.Nombre" type="text" class="form-control"/>
+            <span id="error-nombre" class="text-danger"></span>
+            <br/>
+            <label>Pais:*</label>
+            @Html.DropDownListFor(x => x.PaisId, paises, "Selecciona un Pais", new {@class = "form-control"})
+            <span id="error-pais" class="text-danger"></span>
+            <br/>
+            <div>
+                <input type="radio" name="tipoCliente" value="1" checked/> Individuo
+            </div>
+            <div>
+                <input id="radio-compania" type="radio" name="tipoCliente" value="2"/> Compañía
+            </div>
+            <br/>
+            <button style="width: 150px" class="btn btn-success" onclick="Guardar()">Guardar</button>
+    </div>
+
+</div>
+
+<script>
+   async function Guardar(){
+       $('#error-nombre').html("");
+       $('#error-pais').html("");
+       let tipoCliente = 1;
+       if($('#radio-compania').is(':checked')){
+           tipoCliente = 2
+       }
+       
+        let cliente = {
+            Nombre: $('#Nombre').val(),
+            PaisId: Number($('#PaisId').val()),
+            TipoCliente: tipoCliente
+        };
+        
+        let url = '/CLiente/Guardar'
+        
+        await  $.ajax({
+                          type: 'POST',
+                          url: url,
+                          data: JSON.stringify(cliente),
+                          contentType: 'application/json; charset=utf-8',
+                          dataType: 'json',
+                        success: function(response) {
+                            if(response.success === true){
+                                         document.location.href= response.redirect;
+                                    }
+                                    else{
+                                        for (let i = 0; i < response.errors.length; i++){
+                                            if (response.errors[i] === "Nombre Requerido"){
+                                                $('#error-nombre').html(response.errors[i]);
+                                            }
+                                            if (response.errors[i] === "Selecciona un Pais"){
+                                                $('#error-pais').html(response.errors[i]);
+                                             }
+                                                
+                                        }
+                                    }
+                        }
+                    });  
+    }
+</script>

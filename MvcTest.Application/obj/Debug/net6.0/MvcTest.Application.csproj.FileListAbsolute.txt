@@ -1,0 +1,15 @@
+/Users/nicolas/RiderProjects/MvcTest/MvcTest.Application/bin/Debug/net6.0/MvcTest.Application.deps.json
+/Users/nicolas/RiderProjects/MvcTest/MvcTest.Application/bin/Debug/net6.0/MvcTest.Application.dll
+/Users/nicolas/RiderProjects/MvcTest/MvcTest.Application/bin/Debug/net6.0/ref/MvcTest.Application.dll
+/Users/nicolas/RiderProjects/MvcTest/MvcTest.Application/bin/Debug/net6.0/MvcTest.Application.pdb
+/Users/nicolas/RiderProjects/MvcTest/MvcTest.Application/bin/Debug/net6.0/MvcTest.Domain.dll
+/Users/nicolas/RiderProjects/MvcTest/MvcTest.Application/bin/Debug/net6.0/MvcTest.Domain.pdb
+/Users/nicolas/RiderProjects/MvcTest/MvcTest.Application/obj/Debug/net6.0/MvcTest.Application.csproj.AssemblyReference.cache
+/Users/nicolas/RiderProjects/MvcTest/MvcTest.Application/obj/Debug/net6.0/MvcTest.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nicolas/RiderProjects/MvcTest/MvcTest.Application/obj/Debug/net6.0/MvcTest.Application.AssemblyInfoInputs.cache
+/Users/nicolas/RiderProjects/MvcTest/MvcTest.Application/obj/Debug/net6.0/MvcTest.Application.AssemblyInfo.cs
+/Users/nicolas/RiderProjects/MvcTest/MvcTest.Application/obj/Debug/net6.0/MvcTest.Application.csproj.CoreCompileInputs.cache
+/Users/nicolas/RiderProjects/MvcTest/MvcTest.Application/obj/Debug/net6.0/MvcTest.Application.csproj.CopyComplete
+/Users/nicolas/RiderProjects/MvcTest/MvcTest.Application/obj/Debug/net6.0/MvcTest.Application.dll
+/Users/nicolas/RiderProjects/MvcTest/MvcTest.Application/obj/Debug/net6.0/ref/MvcTest.Application.dll
+/Users/nicolas/RiderProjects/MvcTest/MvcTest.Application/obj/Debug/net6.0/MvcTest.Application.pdb
